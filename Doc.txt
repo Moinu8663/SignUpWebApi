@@ -1,0 +1,4 @@
+Step 1 Install Dotnet sdk
+
+Setp 2 check Dotnet Version
+dotnet --version
