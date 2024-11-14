@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\graphql\\usermutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:graphql\\usermutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\data\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:data\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\graphqltype\\authpayloadtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:graphqltype\\authpayloadtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\token\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:token\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\graphql\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:graphql\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\modals\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:modals\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\modals\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:modals\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\exceptions\\useralreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:exceptions\\useralreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\graphqltype\\userinputtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:graphqltype\\userinputtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\graphqltype\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:graphqltype\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|d:\\moinuddin\\signupwebapi\\signupwebapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EBF4A867-08E7-4149-BC61-859E69CF0958}|SignupWebApi.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:25:11.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Data\\Service.cs",
+              "RelativeDocumentMoniker": "Data\\Service.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Data\\Service.cs",
+              "RelativeToolTip": "Data\\Service.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:33:35.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserQuery.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQl\\UserQuery.cs",
+              "RelativeDocumentMoniker": "GraphQl\\UserQuery.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQl\\UserQuery.cs",
+              "RelativeToolTip": "GraphQl\\UserQuery.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:12:13.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:28:31.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserMutation.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQl\\UserMutation.cs",
+              "RelativeDocumentMoniker": "GraphQl\\UserMutation.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQl\\UserMutation.cs",
+              "RelativeToolTip": "GraphQl\\UserMutation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:13:00.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenGenerator.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Token\\TokenGenerator.cs",
+              "RelativeDocumentMoniker": "Token\\TokenGenerator.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Token\\TokenGenerator.cs",
+              "RelativeToolTip": "Token\\TokenGenerator.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAcwC4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:54:17.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthPayloadType.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQlType\\AuthPayloadType.cs",
+              "RelativeDocumentMoniker": "GraphQlType\\AuthPayloadType.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQlType\\AuthPayloadType.cs",
+              "RelativeToolTip": "GraphQlType\\AuthPayloadType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:08:47.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Data\\Repository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Data\\Repository.cs",
+              "RelativeToolTip": "Data\\Repository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwCkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:28:15.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Modals\\UserContext.cs",
+              "RelativeDocumentMoniker": "Modals\\UserContext.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Modals\\UserContext.cs",
+              "RelativeToolTip": "Modals\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T07:13:22.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserAlreadyExistsException.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Exceptions\\UserAlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\UserAlreadyExistsException.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Exceptions\\UserAlreadyExistsException.cs",
+              "RelativeToolTip": "Exceptions\\UserAlreadyExistsException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:50:53.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Modals\\UserModel.cs",
+              "RelativeDocumentMoniker": "Modals\\UserModel.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Modals\\UserModel.cs",
+              "RelativeToolTip": "Modals\\UserModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T07:13:08.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserInputType.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQlType\\UserInputType.cs",
+              "RelativeDocumentMoniker": "GraphQlType\\UserInputType.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQlType\\UserInputType.cs",
+              "RelativeToolTip": "GraphQlType\\UserInputType.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:32:23.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQlType\\UserType.cs",
+              "RelativeDocumentMoniker": "GraphQlType\\UserType.cs",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\GraphQlType\\UserType.cs",
+              "RelativeToolTip": "GraphQlType\\UserType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:28:02.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Moinuddin\\SignUpWebApi\\SignupWebApi\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-14T06:30:18.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
