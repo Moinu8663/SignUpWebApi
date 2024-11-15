@@ -6,8 +6,8 @@ namespace SignupWebApi.GraphQlType
     {
         public AuthPayloadType()
         {
-            Field<StringGraphType>("token", description: "JWT token");
-            Field<StringGraphType>("mobileNo", description: "User Mobile No");
+            Field<StringGraphType>("token").Description("JWT token");
+            Field<StringGraphType>("mobileNo").Description("User Mobile No");
         }
     }
 }

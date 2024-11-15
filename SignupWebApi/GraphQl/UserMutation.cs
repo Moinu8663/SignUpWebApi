@@ -9,62 +9,63 @@ namespace SignupWebApi.GraphQl
 {
     public class UserMutation : ObjectGraphType
     {
-        public UserMutation(Service service, ITokenGenerator tokenGenerator)
+        public UserMutation(IService service, ITokenGenerator tokenGenerator)
         {
-            //Field<AuthPayloadType>("LogIn")
-            //    .Arguments(new QueryArguments(
-            //        new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "mobileNo" },
-            //        new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "password" }
-            //    ))
-            //    .Resolve(context =>
-            //    {
-            //        var mobileNo = context.GetArgument<string>("empCode");
-            //        var password = context.GetArgument<string>("firstName");
+            Field<UserType>("registerUser")
+                .Arguments(new QueryArguments(new QueryArgument<NonNullGraphType<UserInputType>> { Name = "user" }))
+                .Resolve(context =>
+                {
+                    var user = context.GetArgument<UserModel>("user");
 
-            //        // Fetch user details from the repository
-            //        var user = service.LoginUser(new UserModel { MobileNo = mobileNo, Password = password });
+                    service.RegisterUser(user);
+                    return user;
+                });
 
-            //        // Generate JWT token
-            //        var token = tokenGenerator.GenerateToken(user);
+            Field<AuthPayloadType>("loginUser")
+                .Arguments(new QueryArguments(
+                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "mobileNo" },
+                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "password" }
+                ))
+                .Resolve(context =>
+                {
+                    var mobileNo = context.GetArgument<string>("mobileNo");
+                    var password = context.GetArgument<string>("password");
 
-            //        // Return both the token and the employee code
-            //        return new
-            //        {
-            //            token,
-            //            mobileNo = user.MobileNo
-            //        };
-            //    });
+                    // Fetch user details from the repository
+                    var user = service.LoginUser(new UserModel { MobileNo = mobileNo, Password = password });
 
-            //Field<UserType>("RegisterUser")
-            //    .Arguments(new QueryArguments(
-            //        new QueryArgument<NonNullGraphType<UserInputType>> { Name = "user" }
-            //    ))
-            //    .Resolve(context =>
-            //    {
-            //        var user = context.GetArgument<UserModel>("user");
-            //        return repo.AddUser(user);
-            //    });
+                    // Generate JWT token
+                    var token = tokenGenerator.GenerateToken(user);
 
-            //Field<UserType>("updateUser")
-            //    .Arguments(new QueryArguments(
-            //        new QueryArgument<NonNullGraphType<UserInputType>> { Name = "user" },
-            //        new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "empCode" }
-            //    ))
-            //    .Resolve(context =>
-            //    {
-            //        var user = context.GetArgument<UserDetailsModel>("user");
-            //        var empCode = context.GetArgument<string>("empCode");
-            //        return repo.UpdateUser(user, empCode);
-            //    });
+                    // Return both the token and the employee code
+                    return new
+                    {
+                        token,
+                        mobileNo = user.MobileNo
+                    };
+                });
 
-            //Field<StringGraphType>("deleteUser")
-            //    .Arguments(new QueryArguments(new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "empCode" }))
-            //    .Resolve(context =>
-            //    {
-            //        var empCode = context.GetArgument<string>("empCode");
-            //        repo.DeleteUser(empCode);
-            //        return $"User with EmpCode {empCode} was deleted.";
-            //    });
+            Field<StringGraphType>("deleteUser")
+                .Arguments(new QueryArguments(new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "mobileNo" }))
+                .Resolve(context =>
+                {
+                    var mobileNo = context.GetArgument<string>("mobileNo");
+                    service.DeleteUser(mobileNo);
+                    return $"User with mobile number {mobileNo} deleted successfully.";
+                });
+
+            Field<UserType>("updateUser")
+                .Arguments(new QueryArguments(
+                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "mobileNo" },
+                    new QueryArgument<NonNullGraphType<UserInputType>> { Name = "user" }
+                ))
+                .Resolve(context =>
+                {
+                    var mobileNo = context.GetArgument<string>("mobileNo");
+                    var user = context.GetArgument<UserModel>("user");
+                    service.UpdateUser(mobileNo, user);
+                    return user;
+                });
         }
     }
 }

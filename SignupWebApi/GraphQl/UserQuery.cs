@@ -1,23 +1,24 @@
-﻿using GraphQL.Types;
+﻿using GraphQL;
+using GraphQL.Types;
+using SignupWebApi.Data;
 using SignupWebApi.GraphQlType;
 
 namespace SignupWebApi.GraphQl
 {
     public class UserQuery : ObjectGraphType
     {
-
-        /*public UserQuery(Repository repo)
+        public UserQuery(IService service)
         {
-            Field<ListGraphType<UserType>>("users")
-                .Resolve(context => repo.GetAllUser());
+            Field<ListGraphType<UserType>>("getAllUsers")
+                .Resolve(context => service.GetAllUser());
 
-            Field<UserType>("user")
-                .Arguments(new QueryArguments(new QueryArgument<StringGraphType> { Name = "empCode" }))
+            Field<UserType>("getUserByMobileNo")
+                .Arguments(new QueryArguments(new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "mobileNo" }))
                 .Resolve(context =>
                 {
-                    var empCode = context.GetArgument<string>("empCode");
-                    return repo.GetUserByEmpcode(empCode);
+                    var mobileNo = context.GetArgument<string>("mobileNo");
+                    return service.GetUserByMobileNo(mobileNo);
                 });
-        }*/
+        }
     }
 }

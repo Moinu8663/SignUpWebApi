@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignupWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+805f6bd0cfcb60429c4825ae92eec10807d0bafd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b43c002c6e07633b454b2c13d61cf092d83a99e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignupWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignupWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
