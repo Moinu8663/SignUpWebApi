@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jcSSOp8B0yAJGekX+2MZp8oYKCq56e5Hi3NCdqr5fcc=",
+  "Source": "SignupWebApi",
+  "BasePath": "_content/SignupWebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

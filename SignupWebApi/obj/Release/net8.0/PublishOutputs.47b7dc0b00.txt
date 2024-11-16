@@ -1,0 +1,12 @@
+/workspaces/SignUpWebApi/SignupWebApi/publish/SignupWebApi
+/workspaces/SignUpWebApi/SignupWebApi/publish/appsettings.Development.json
+/workspaces/SignUpWebApi/SignupWebApi/publish/appsettings.json
+/workspaces/SignUpWebApi/SignupWebApi/publish/SignupWebApi.dll
+/workspaces/SignUpWebApi/SignupWebApi/publish/SignupWebApi.deps.json
+/workspaces/SignUpWebApi/SignupWebApi/publish/SignupWebApi.runtimeconfig.json
+/workspaces/SignUpWebApi/SignupWebApi/publish/SignupWebApi.pdb
+/workspaces/SignUpWebApi/SignupWebApi/publish/Microsoft.AspNetCore.OpenApi.dll
+/workspaces/SignUpWebApi/SignupWebApi/publish/Microsoft.OpenApi.dll
+/workspaces/SignUpWebApi/SignupWebApi/publish/Swashbuckle.AspNetCore.Swagger.dll
+/workspaces/SignUpWebApi/SignupWebApi/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/workspaces/SignUpWebApi/SignupWebApi/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
