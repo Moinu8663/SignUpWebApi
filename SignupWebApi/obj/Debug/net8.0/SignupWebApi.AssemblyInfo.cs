@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("24da6a2c-e307-418f-b7b6-5c3cdd134ad5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignupWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+805f6bd0cfcb60429c4825ae92eec10807d0bafd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c212aba3857de92930e4fc76015f611f64df4312")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignupWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignupWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
